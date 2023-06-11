@@ -23,11 +23,10 @@
 
     header img 
     {
-        margin-top: -20vh;
-        margin-bottom: 5vh;
+        margin-top: -3vh;
         margin-left: 10vw;
-        width: 30vw;
-        height: 30vh;
+        width: 35vw;
+        height: 18vh;
     }
 
     body 
@@ -202,17 +201,19 @@
 
     .redes 
     {
-        margin-top: -10vw;
+        margin-top: 5vw;
         margin-right: -4vw;
         padding-right: 1vw;
         display: inline-block;
     }
 
-    .infos {
+    .infos 
+    {
         height: 3vh;
-        margin-top: -10vw;
+        margin-top: 10vw;
         margin-right: 14vw;
         margin-bottom: 25vw;
+        display: ruby;
     }
 
     .infos a 
@@ -319,7 +320,6 @@
     {
         width: 85vw;
         height: 60vh;
-        padding-bottom: 10vh;
         border-radius: 3vw;
     }
 
@@ -552,7 +552,7 @@
     
     header img
     {
-        margin-top: 2vw;
+        margin-top: 1.5vw;
         margin-left: 7vw;
         width: 15vw;
         height: 20vh;
