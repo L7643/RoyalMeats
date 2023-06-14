@@ -77,7 +77,7 @@ function aparece2(){
         y.style.display = "none";
     } else {
         x.style.display = "none";
-    }cxf
+    }
 }
 
 
