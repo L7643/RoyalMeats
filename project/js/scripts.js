@@ -80,7 +80,6 @@ function aparece2(){
     }
 }
 
-
 function btncardapio(){
 
     var x = document.getElementById("cardapio");
