@@ -141,9 +141,8 @@
         width: 105vw;
         height: 100vh;
         margin-right: 5vw;
-        margin-top: -40vw;
-        transition: 0.15s;
-        
+        margin-top: -25vw;
+        transition: 0.15s ease-in-out;
     }
 
     .visivel ul 
@@ -156,7 +155,7 @@
     .visivel li
     {
         margin-right: 5vw;
-        font-size: 10vw;
+        font-size: 10%;
         padding: 3vw;
         text-align: center;
     }
@@ -178,8 +177,7 @@
     {
         visibility: hidden;
         height: 0px;
-        transition: 0.15s
-        0.15s case all;
+        transition: 0.05s;
     }
 
     .prato
@@ -198,8 +196,23 @@
         padding: 3vw;
         opacity: 1;
     }
+    
+    .btncardapio
+    {
+        width: 30vw;
+        margin-left: 35vw;
+        padding: 0.1vh;
+        border-radius: 10vw;
+        background-color: #fdda16;
+    }
 
-    .redes 
+    .btncardapio a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .redes
     {
         margin-top: 5vw;
         margin-right: -4vw;
@@ -255,7 +268,7 @@
         font-size: 3vh;
     }
 
-    .SobreNós
+    .SobreNos
     {
         font-size: 3vh;
         padding: 2vh;
@@ -265,7 +278,7 @@
         text-align: center;
     }
     
-    .SobreNós img
+    .SobreNos img
     {
         width: 85vw;
         height: 60vh;
@@ -574,7 +587,7 @@
     {
         width: 100vw;
         height: 74vh;
-        margin-top: 18vh;
+        margin-top: 22vh;
     }
     
     button
@@ -694,22 +707,42 @@
         margin-bottom: 4vh;
         margin-right: 4vh;
         display: inline-block;
-        background-color:rgba(150,150,150,0.5);
+        background-color:rgba(150, 150, 150, 0.5);
         border: transparent;
-        box-shadow: 2px 2px 2px #fff;
+        box-shadow: 2px 2px 2px #969696;
     }
-
-    /*.prato:hover
-    {
-        height: 95vh;
-        width: 45vw;
-    }*/
 
     .prato img
     {
-        margin-left: 3vw;
+        margin-top: -10vh;
         width: 75%;
         padding: 2vw;
+    }
+
+    .prato p
+    {
+        margin-top: -10vh;
+    }
+
+    .prato r1
+    {
+        text-decoration:line-through;
+    }
+
+    .btncardapio
+    {
+        width: 10vw;
+        margin-left: 43.5vw;
+        padding: 0.1vh;
+        border-radius: 10vw;
+        background-color: #fdda16;
+        cursor: pointer;
+    }
+
+    .btncardapio a
+    {
+        text-decoration: none;
+        color: #000;
     }
     
     .redes
@@ -722,8 +755,14 @@
     
     .infos
     {
+        margin-top: -20vh;
         margin-left: 55vw;
         display:inline-block;
+    }
+
+    .infos a:visited
+    {
+        color: #000;
     }
     
     .infos a
@@ -762,7 +801,7 @@
         margin-top: -1vh;
     }
 
-    .SobreNós
+    .SobreNos
     {
         font-size: 3vh;
         padding: 2vh;
@@ -773,7 +812,7 @@
         text-align: center;
     }
     
-    .SobreNós img
+    .SobreNos img
     {
         float: left;
         width: 50vw;
@@ -781,7 +820,7 @@
         border-radius: 3vh;
     }
 
-    .SobreNós p 
+    .SobreNos p 
     {
         padding-left: 51vw;
     }
