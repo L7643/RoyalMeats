@@ -719,6 +719,11 @@
         padding: 2vw;
     }
 
+    .prato b img
+    {
+        width: 200vw
+    }
+
     .prato p
     {
         margin-top: -10vh;
