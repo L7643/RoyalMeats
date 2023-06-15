@@ -89,7 +89,7 @@
     {
         width: 15vw;
         height: 15vh;
-        margin-top: 7vw;
+        margin-top: 10vw;
         margin-left: -25vw;
         cursor: pointer;
         
@@ -190,13 +190,24 @@
         cursor: pointer;
     }
 
-    .prato img 
+    .prato img
     {
+        margin-top: -10vh;
         width: 75%;
         padding: 3vw;
         opacity: 1;
     }
-    
+
+    .prato h2
+    {
+        margin-bottom: 10vh;
+    }
+
+    .prato r1
+    {
+        text-decoration:line-through;
+    }
+
     .btncardapio
     {
         width: 30vw;
@@ -667,8 +678,6 @@
     {
         padding-left: 41vw;
     }
-}
-
 }
 
 /* media query for desktops */
