@@ -702,7 +702,7 @@
         cursor: pointer;
     }
     
-    .prato
+    [class=.prato]
     {
         margin-bottom: 4vh;
         margin-right: 4vh;
@@ -717,11 +717,6 @@
         margin-top: -10vh;
         width: 75%;
         padding: 2vw;
-    }
-
-    .prato b img
-    {
-        width: 200vw
     }
 
     .prato p
