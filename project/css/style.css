@@ -377,6 +377,11 @@
        margin-left: -25vw; 
     }
 
+    #end
+    {
+        width: 40vw;
+    }
+
     #P2
     {
         margin-left: -25vw;
@@ -832,7 +837,7 @@
     .campo input
     {
         height: 3vh;
-        width: 17vw;
+        width: 20vw;
         border-radius: 2vh;
         font-size: 2vh;
     }
@@ -842,10 +847,15 @@
        margin-left: -25vw; 
     }
 
+    #end
+    {
+        width: 25vw;
+    }
+
     #P2
     {
         margin-left: 15vw;
-        margin-top: -25vh;
+        margin-top: -25.3vh;
     }
 
     #P3
@@ -1318,6 +1328,11 @@
     #P1
     {
        margin-left: -25vw; 
+    }
+
+    #end
+    {
+        width: 25vw;
     }
 
     #P2
